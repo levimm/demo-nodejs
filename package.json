@@ -1,9 +1,18 @@
 {
-  "name": "demo-nodejs",
-  "version": "0.0.1",
-  "dependencies": {
-  },
+  "name": "express-hello-world",
+  "version": "1.0.0",
+  "description": "Hello world app with express 4",
+  "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "hello-world"
+  ],
+  "author": "Brian Mathews",
+  "dependencies": {
+    "express": "^4.15.0"
   }
 }
